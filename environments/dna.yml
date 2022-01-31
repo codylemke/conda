@@ -1,0 +1,24 @@
+name: dna
+channels:
+    - conda-forge
+    - bioconda
+    - defaults
+dependencies:
+# https://anaconda.org/conda-forge/python
+- conda-forge::python
+# https://anaconda.org/conda-forge/pip
+- conda-forge::pip
+# https://anaconda.org/conda-forge/openjdk
+- conda-forge::openjdk
+# https://anaconda.org/bioconda/fastqc
+- bioconda::fastqc
+# https://anaconda.org/bioconda/fastp
+- bioconda::fastp
+# https://anaconda.org/bioconda/bwa-mem2
+- bioconda::bwa-mem2
+# https://anaconda.org/bioconda/samtools
+- bioconda::samtools
+# https://anaconda.org/bioconda/bcftools
+- bioconda::bcftools
+# https://anaconda.org/bioconda/vcftools
+- bioconda::vcftools

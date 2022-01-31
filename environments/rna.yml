@@ -1,0 +1,36 @@
+name: rna
+channels:
+    - conda-forge
+    - bioconda
+    - defaults
+dependencies:
+    # https://anaconda.org/conda-forge/openjdk
+    - conda-forge::openjdk
+    # https://anaconda.org/bioconda/nextflow
+    - bioconda::nextflow
+    # https://anaconda.org/conda-forge/pip
+    - conda-forge::pip
+    # https://anaconda.org/conda-forge/python
+    - conda-forge::python
+    # https://anaconda.org/conda-forge/singularity
+    - conda-forge::singularity
+    # https://anaconda.org/bioconda/sra-tools
+    - bioconda::sra-tools
+    # https://anaconda.org/bioconda/multiqc
+    - bioconda::multiqc
+    # https://anaconda.org/bioconda/fastp
+    - bioconda::fastp
+    # https://anaconda.org/bioconda/fastqc
+    - bioconda::fastqc
+    # https://anaconda.org/bioconda/sortmerna
+    - bioconda::sortmerna
+    # https://anaconda.org/bioconda/hisat2
+    - bioconda::hisat2
+    # https://anaconda.org/bioconda/trinity
+    - bioconda::trinity
+    # https://anaconda.org/bioconda/stringtie
+    - bioconda::stringtie
+    # https://anaconda.org/bioconda/busco
+    - bioconda::busco
+    # https://anaconda.org/bioconda/dammit
+    - bioconda::dammit
