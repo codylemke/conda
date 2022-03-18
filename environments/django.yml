@@ -41,6 +41,16 @@ dependencies:
   - conda-forge::django-rest-auth
   # https://anaconda.org/conda-forge/djangorestframework_simplejwt
   - conda-forge::djangorestframework_simplejwt
+  # https://anaconda.org/conda-forge/celery
+  - conda-forge::celery
+  # https://anaconda.org/conda-forge/flower
+  - conda-forge::flower
+  # https://anaconda.org/conda-forge/psycopg2
+  - conda-forge::psycopg2
+  # https://anaconda.org/anaconda/pytest
+  - conda-forge::pytest
+  # https://anaconda.org/conda-forge/pytest-django
+  - conda-forge::pytest-django
   # https://anaconda.org/conda-forge/pip
   - conda-forge::pip
   - pip:
@@ -48,5 +58,3 @@ dependencies:
     - django-phonenumber-field[phonenumbers]
     # https://pypi.org/project/django-two-factor-auth/
     - django-two-factor-auth
-    # https://pypi.org/project/psycopg2/
-    - psycopg2

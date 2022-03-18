@@ -1,0 +1,14 @@
+name: bio
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # https://anaconda.org/conda-forge/python
+  - conda-forge::python
+  # https://anaconda.org/conda-forge/openjdk
+  - conda-forge::openjdk
+  # https://anaconda.org/conda-forge/nodejs
+  - conda-forge::nodejs
+  # https://anaconda.org/bioconda/mafft
+  - bioconda::mafft

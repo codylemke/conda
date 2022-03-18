@@ -2,16 +2,13 @@ name: general
 channels:
   - conda-forge
   - pytorch
+  - bioconda
   - defaults
 dependencies:
   # https://anaconda.org/conda-forge/python
   - conda-forge::python
   # https://anaconda.org/conda-forge/pip
   - conda-forge::pip
-  # https://anaconda.org/conda-forge/openjdk
-  - conda-forge::openjdk
-  # https://anaconda.org/conda-forge/nodejs
-  - conda-forge::nodejs
   # https://anaconda.org/conda-forge/sphinx
   - conda-forge::sphinx
   # https://anaconda.org/conda-forge/myst-parser
@@ -40,24 +37,18 @@ dependencies:
   - conda-forge::nltk
   # https://anaconda.org/conda-forge/scikit-learn
   - conda-forge::scikit-learn
-  # https://anaconda.org/conda-forge/tensorflow
-  - conda-forge::tensorflow
-  # https://anaconda.org/conda-forge/keras
-  - conda-forge::keras
-  # https://anaconda.org/conda-forge/theano
-  - conda-forge::theano
-  # https://anaconda.org/pytorch/pytorch
-  - pytorch::pytorch
   # https://anaconda.org/conda-forge/matplotlib
   - conda-forge::matplotlib
   # https://anaconda.org/conda-forge/seaborn
   - conda-forge::seaborn
   # https://anaconda.org/conda-forge/plotly
   - conda-forge::plotly
+  # https://anaconda.org/conda-forge/dash
+  - conda-forge::dash
+  # https://anaconda.org/conda-forge/dash-bio
+  - conda-forge::dash-bio
   # https://anaconda.org/conda-forge/pillow
   - conda-forge::pillow
-  # https://anaconda.org/conda-forge/tk
-  - conda-forge::tk
   # https://anaconda.org/conda-forge/pytest
   - conda-forge::pytest
   

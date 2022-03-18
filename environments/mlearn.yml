@@ -1,0 +1,15 @@
+name: mlearn
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  # https://anaconda.org/conda-forge/scikit-learn
+  - conda-forge::scikit-learn
+  # https://anaconda.org/conda-forge/tensorflow
+  - conda-forge::tensorflow
+  # https://anaconda.org/conda-forge/keras
+  - conda-forge::keras
+  # https://anaconda.org/conda-forge/theano
+  - conda-forge::theano
+  # https://anaconda.org/pytorch/pytorch
+  - pytorch::pytorch
