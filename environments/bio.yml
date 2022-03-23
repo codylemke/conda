@@ -8,7 +8,13 @@ dependencies:
   - conda-forge::python
   # https://anaconda.org/conda-forge/openjdk
   - conda-forge::openjdk
-  # https://anaconda.org/conda-forge/nodejs
-  - conda-forge::nodejs
+  # https://anaconda.org/bioconda/nextflow
+  - bioconda::nextflow
   # https://anaconda.org/bioconda/mafft
   - bioconda::mafft
+  # https://anaconda.org/bioconda/fasttree
+  - bioconda::fasttree
+  # https://anaconda.org/bioconda/raxml
+  - bioconda::raxml
+
+  
