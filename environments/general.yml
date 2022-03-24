@@ -35,6 +35,10 @@ dependencies:
   - conda-forge::scrapy
   # https://anaconda.org/conda-forge/selenium
   - conda-forge::selenium
+  # https://anaconda.org/conda-forge/nltk
+  - conda-forge::nltk
+  # https://anaconda.org/conda-forge/scikit-learn
+  - conda-forge::scikit-learn
   # https://anaconda.org/conda-forge/matplotlib
   - conda-forge::matplotlib
   # https://anaconda.org/conda-forge/seaborn
@@ -43,9 +47,8 @@ dependencies:
   - conda-forge::plotly
   # https://anaconda.org/conda-forge/pillow
   - conda-forge::pillow
-  # https://anaconda.org/conda-forge/nltk
-  - conda-forge::nltk
-  # https://anaconda.org/conda-forge/scikit-learn
-  - conda-forge::scikit-learn
+
+  
+  
 
   
