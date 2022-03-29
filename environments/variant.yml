@@ -1,0 +1,31 @@
+name: variant
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # https://anaconda.org/conda-forge/python
+  - conda-forge::python
+  # https://anaconda.org/conda-forge/openjdk
+  - conda-forge::openjdk
+  # https://anaconda.org/bioconda/nextflow
+  - bioconda::nextflow
+  # https://anaconda.org/bioconda/fastqc
+  - bioconda::fastqc
+  # https://anaconda.org/bioconda/fastp
+  - bioconda::fastp
+  # https://anaconda.org/bioconda/bwa-mem2
+  - bioconda::bwa-mem2
+  # https://anaconda.org/bioconda/qualimap
+  - bioconda::qualimap
+  # https://anaconda.org/bioconda/pilon
+  - bioconda::pilon
+  # https://anaconda.org/bioconda/unicycler
+  - bioconda::unicycler
+  # https://anaconda.org/bioconda/quast
+  - bioconda::quast
+  # https://anaconda.org/bioconda/samtools
+  - bioconda::samtools
+  # https://anaconda.org/bioconda/bcftools
+  - bioconda::bcftools
+

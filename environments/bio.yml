@@ -54,6 +54,8 @@ dependencies:
   - conda-forge::dash
   # https://anaconda.org/conda-forge/biopython
   - conda-forge::biopython
+  # https://anaconda.org/conda-forge/ete3
+  - conda-forge::ete3
   # https://anaconda.org/conda-forge/dash-bio
   - conda-forge::dash-bio
   # https://anaconda.org/bioconda/nextflow
