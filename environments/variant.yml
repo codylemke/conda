@@ -10,22 +10,24 @@ dependencies:
   - conda-forge::openjdk
   # https://anaconda.org/bioconda/nextflow
   - bioconda::nextflow
+  # https://anaconda.org/bioconda/unicycler
+  - bioconda::unicycler
   # https://anaconda.org/bioconda/fastqc
   - bioconda::fastqc
   # https://anaconda.org/bioconda/fastp
   - bioconda::fastp
   # https://anaconda.org/bioconda/bwa-mem2
   - bioconda::bwa-mem2
+  # https://anaconda.org/bioconda/bowtie2
+  - bioconda::bowtie2
   # https://anaconda.org/bioconda/qualimap
   - bioconda::qualimap
   # https://anaconda.org/bioconda/pilon
   - bioconda::pilon
-  # https://anaconda.org/bioconda/unicycler
-  - bioconda::unicycler
-  # https://anaconda.org/bioconda/quast
-  - bioconda::quast
   # https://anaconda.org/bioconda/samtools
   - bioconda::samtools
   # https://anaconda.org/bioconda/bcftools
   - bioconda::bcftools
+  # https://anaconda.org/bioconda/gatk4
+  - bioconda::gatk4
 
