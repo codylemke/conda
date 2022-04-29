@@ -8,7 +8,7 @@ dependencies:
   - conda-forge::python
   # https://anaconda.org/conda-forge/pip
   - conda-forge::pip
-    # https://anaconda.org/conda-forge/ipython
+  # https://anaconda.org/conda-forge/ipython
   - conda-forge::ipython
   # https://anaconda.org/conda-forge/jupyter
   - conda-forge::jupyter
