@@ -1,0 +1,7 @@
+name: web3
+channels:
+  - conda-forge
+dependencies:
+  # https://anaconda.org/conda-forge/nodejs
+  - conda-forge::node
+  # 

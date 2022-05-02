@@ -2,7 +2,6 @@ name: dna
 channels:
     - conda-forge
     - bioconda
-    - defaults
 dependencies:
 # https://anaconda.org/conda-forge/python
 - conda-forge::python

@@ -2,7 +2,6 @@ name: rna
 channels:
     - conda-forge
     - bioconda
-    - defaults
 dependencies:
     # https://anaconda.org/conda-forge/openjdk
     - conda-forge::openjdk

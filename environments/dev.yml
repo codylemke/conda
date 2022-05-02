@@ -1,9 +1,7 @@
 name: dev
 channels:
   - conda-forge
-  - bioconda
 dependencies:
-  # GENERAL
   # https://anaconda.org/conda-forge/python
   - conda-forge::python
   # https://anaconda.org/conda-forge/pip
@@ -46,20 +44,16 @@ dependencies:
   - conda-forge::plotly
   # https://anaconda.org/conda-forge/scikit-learn
   - conda-forge::scikit-learn
-  # https://anaconda.org/conda-forge/tensorflow
-  - conda-forge::tensorflow
   # https://anaconda.org/conda-forge/nltk
   - conda-forge::nltk
   # https://anaconda.org/conda-forge/pillow
   - conda-forge::pillow
-  # BIO
   # https://anaconda.org/conda-forge/biopython
   - conda-forge::biopython
   # https://anaconda.org/conda-forge/ete3
   - conda-forge::ete3
-  # BACKEND
-  # https://anaconda.org/conda-forge/psycopg2
-  - conda-forge::psycopg2
+  # https://anaconda.org/conda-forge/psycopg
+  - conda-forge::psycopg
   # https://anaconda.org/conda-forge/sqlalchemy
   - conda-forge::sqlalchemy
   # https://anaconda.org/conda-forge/jinja2
@@ -84,7 +78,7 @@ dependencies:
   - conda-forge::django-environ
   # https://anaconda.org/conda-forge/django-crispy-forms
   - conda-forge::django-crispy-forms
-  # https://anaconda.org/conda-forge/djangorestframework
+  # # https://anaconda.org/conda-forge/djangorestframework
   - conda-forge::djangorestframework
   # https://anaconda.org/conda-forge/django-cors-headers
   - conda-forge::django-cors-headers
@@ -94,8 +88,6 @@ dependencies:
   - conda-forge::djangorestframework_simplejwt
   # https://anaconda.org/conda-forge/pytest-django
   - conda-forge::pytest-django
-  # https://anaconda.org/conda-forge/django-redis
-  - conda-forge::django-redis
   # https://anaconda.org/conda-forge/flask
   - conda-forge::flask
   # https://anaconda.org/conda-forge/fastapi
@@ -115,5 +107,5 @@ dependencies:
     - django-phonenumber-field[phonenumbers]
     # https://pypi.org/project/django-two-factor-auth/
     - django-two-factor-auth
-    # https://pypi.org/project/crispy-bootstrap5/
-    - crispy-bootstrap5
+
+    

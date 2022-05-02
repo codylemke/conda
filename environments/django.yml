@@ -1,7 +1,6 @@
 name: django
 channels:
   - conda-forge
-  - defaults
 dependencies:
   # https://anaconda.org/conda-forge/python
   - conda-forge::python
