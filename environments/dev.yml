@@ -1,7 +1,9 @@
 name: dev
 channels:
   - conda-forge
+  - microsoft
 dependencies:
+  # GENERAL -------------------------------------------------------------------
   # https://anaconda.org/conda-forge/python
   - conda-forge::python
   # https://anaconda.org/conda-forge/pip
@@ -18,46 +20,73 @@ dependencies:
   - conda-forge::jupyter
   # https://anaconda.org/conda-forge/pytest
   - conda-forge::pytest
+  # DATA SCIENCE --------------------------------------------------------------
   # https://anaconda.org/conda-forge/numpy
   - conda-forge::numpy
+  # https://anaconda.org/conda-forge/openpyxl
+  - conda-forge::openpyxl
   # https://anaconda.org/conda-forge/pandas
   - conda-forge::pandas
   # https://anaconda.org/conda-forge/scipy
   - conda-forge::scipy
+  # https://anaconda.org/conda-forge/nltk
+  - conda-forge::nltk
+  # https://anaconda.org/conda-forge/pendulum
+  - conda-forge::pendulum
+  # WEB SCRAPING --------------------------------------------------------------
   # https://anaconda.org/conda-forge/urllib3
   - conda-forge::urllib3
   # https://anaconda.org/conda-forge/requests
   - conda-forge::requests
+  # https://anaconda.org/conda-forge/pysftp
+  - conda-forge::pysftp
+  # https://anaconda.org/conda-forge/twisted
+  - conda-forge::twisted
   # https://anaconda.org/conda-forge/lxml
   - conda-forge::lxml
   # https://anaconda.org/conda-forge/beautifulsoup4
   - conda-forge::beautifulsoup4
-  # https://anaconda.org/conda-forge/scrapy
-  - conda-forge::scrapy
   # https://anaconda.org/conda-forge/selenium
   - conda-forge::selenium
+  # https://anaconda.org/microsoft/playwright
+  - microsoft::playwright
+  # https://anaconda.org/conda-forge/scrapy
+  - conda-forge::scrapy
+  # VISUALIZATION -------------------------------------------------------------
+  # https://anaconda.org/conda-forge/tqdm
+  - conda-forge::tqdm
   # https://anaconda.org/conda-forge/matplotlib
   - conda-forge::matplotlib
   # https://anaconda.org/conda-forge/seaborn
   - conda-forge::seaborn
   # https://anaconda.org/conda-forge/plotly
   - conda-forge::plotly
-  # https://anaconda.org/conda-forge/scikit-learn
-  - conda-forge::scikit-learn
-  # https://anaconda.org/conda-forge/nltk
-  - conda-forge::nltk
+  # https://anaconda.org/conda-forge/dash
+  - conda-forge::dash
+  # https://anaconda.org/conda-forge/dash-core-components
+  - conda-forge::dash-core-components
   # https://anaconda.org/conda-forge/pillow
   - conda-forge::pillow
-  # https://anaconda.org/conda-forge/biopython
-  - conda-forge::biopython
-  # https://anaconda.org/conda-forge/ete3
-  - conda-forge::ete3
+  # https://anaconda.org/conda-forge/kivy
+  - conda-forge::kivy
+  # MACHINE LEARNING ----------------------------------------------------------
+  # https://anaconda.org/conda-forge/scikit-learn
+  - conda-forge::scikit-learn
+  # https://anaconda.org/conda-forge/tensorflow
+  - conda-forge::tensorflow
+  # WEB DEVELOPMENT -----------------------------------------------------------
   # https://anaconda.org/conda-forge/psycopg
   - conda-forge::psycopg
+  # https://anaconda.org/conda-forge/psycopg2
+  - conda-forge::psycopg2
   # https://anaconda.org/conda-forge/sqlalchemy
   - conda-forge::sqlalchemy
   # https://anaconda.org/conda-forge/jinja2
   - conda-forge::jinja2
+  # https://anaconda.org/conda-forge/flask
+  - conda-forge::flask
+  # https://anaconda.org/conda-forge/fastapi
+  - conda-forge::fastapi
   # https://anaconda.org/conda-forge/django
   - conda-forge::django
   # https://anaconda.org/conda-forge/django-extensions
@@ -88,10 +117,7 @@ dependencies:
   - conda-forge::djangorestframework_simplejwt
   # https://anaconda.org/conda-forge/pytest-django
   - conda-forge::pytest-django
-  # https://anaconda.org/conda-forge/flask
-  - conda-forge::flask
-  # https://anaconda.org/conda-forge/fastapi
-  - conda-forge::fastapi
+  # DEVOPS --------------------------------------------------------------------
   # https://anaconda.org/conda-forge/gunicorn
   - conda-forge::gunicorn
   # https://anaconda.org/conda-forge/uvicorn
@@ -102,10 +128,13 @@ dependencies:
   - conda-forge::flower
   # https://anaconda.org/conda-forge/sentry-sdk
   - conda-forge::sentry-sdk
+  # BIOINFORMATICS ------------------------------------------------------------
+  # https://anaconda.org/conda-forge/biopython
+  - conda-forge::biopython
+  # https://anaconda.org/conda-forge/ete3
+  - conda-forge::ete3
   - pip:
     # # https://pypi.org/project/django-phonenumber-field/
     - django-phonenumber-field[phonenumbers]
     # https://pypi.org/project/django-two-factor-auth/
     - django-two-factor-auth
-
-    
