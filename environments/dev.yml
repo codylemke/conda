@@ -20,6 +20,8 @@ dependencies:
   - conda-forge::jupyter
   # https://anaconda.org/conda-forge/pytest
   - conda-forge::pytest
+  # https://anaconda.org/conda-forge/pylint
+  - conda-forge::pylint
   # DATA SCIENCE --------------------------------------------------------------
   # https://anaconda.org/conda-forge/numpy
   - conda-forge::numpy
@@ -117,6 +119,8 @@ dependencies:
   - conda-forge::djangorestframework_simplejwt
   # https://anaconda.org/conda-forge/pytest-django
   - conda-forge::pytest-django
+  # https://anaconda.org/conda-forge/pylint-django
+  - conda-forge::pylint-django
   # DEVOPS --------------------------------------------------------------------
   # https://anaconda.org/conda-forge/gunicorn
   - conda-forge::gunicorn
